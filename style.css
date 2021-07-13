@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+body{
+    background-color: gainsboro;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+/* header styles start */
+.logo img{
+    position: absolute;
+    border-radius: 25px;
+    top: 10px;
+    left: 10px;
+}
+.manu{
+    display: inline-block;
+    background-color: dodgerblue;
+    width: 100%;
+    padding: 25px;
+    text-align: center;
+    
+    
+}
+.manu a{
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+/* Headers Styles End */
+
+/* our payments styles Start */
+.our-payment-text{
+    background-color: teal;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px;
+    margin-top: 10px;
+
+
+}
+.all-payment{
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+.detailes{
+
+}
+.detailes img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 5px solid burlywood;
+}
+
+/* Local Payment Styles Start */
+.local-payment-text{
+    background-color: darkcyan;
+    padding: 2px ;
+    border-radius: 20px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+/* our payments styles End */
+
+/* Local payment mathod styles start */
+
+.rev-hed-text{
+    background-color: steelblue;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+
+/* reives texts starts */
+.payment-details{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 10px;
+}
+.payment-prof-details{
+    text-align: center;
+    background-color: wheat;
+    border-radius: 20px;
+    color: green;
+
+       
+}
+.payment-prof-details img{
+    height: 500px;
+    width: 300px;
+    border-radius: 20px;
+    border: 2px solid grey;
+    margin: 20px;
+}
+/* review detailes starte styles */
+
+.review-details{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    margin: 30px;
+    text-align: center;
+}
+
+.review-box{
+    height: 100px;
+    width: 250px;
+    text-align: center;
+    border-radius: 20px;
+    margin-right: 20px;
+
+}
+#user{
+    background: linear-gradient(#05d4f8, #295be2);
+    color: white;
+}
+#exchange{
+    background: linear-gradient(#043d47, #03a3ff);
+    color: white;
+}
+#Review{
+    background: linear-gradient(#02ffd5, #0f0d69);
+    color: white;
+}
+#Vesitor{
+    background: linear-gradient(#187420, #023d22);
+    color: white;
+}
+/* footer styles starts */
+footer{
+    background-color: dodgerblue;
+    text-align: center;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+}
